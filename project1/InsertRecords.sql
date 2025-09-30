@@ -36,6 +36,28 @@ IGNORE 1 ROWS
 (dgname, level, department_code);
 
 /*
+====== LOAD MAJOR ======
+*/
+LOAD DATA LOCAL INFILE 'C:\\Users\\DEADL\\Documents\\coms363\\project1\\project1_data\\major.csv'
+INTO TABLE major
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"' 
+LINES TERMINATED BY '\r\n'
+IGNORE 1 ROWS
+(sid, name, level);
+
+/*
+====== LOAD MINOR ======
+*/
+LOAD DATA LOCAL INFILE 'C:\\Users\\DEADL\\Documents\\coms363\\project1\\project1_data\\minor.csv'
+INTO TABLE minor
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"' 
+LINES TERMINATED BY '\r\n'
+IGNORE 1 ROWS
+(sid, name, level);
+
+/*
 ====== LOAD COURSES ======
 */
 LOAD DATA LOCAL INFILE 'C:\\Users\\DEADL\\Documents\\coms363\\project1\\project1_data\\courses.csv'
@@ -57,24 +79,4 @@ LINES TERMINATED BY '\r\n'
 IGNORE 1 ROWS
 (sid, course_number, regtime, grade);
 
-/*
-====== LOAD MAJOR ======
-*/
-LOAD DATA LOCAL INFILE 'C:\\Users\\DEADL\\Documents\\coms363\\project1\\project1_data\\major.csv'
-INTO TABLE major
-FIELDS TERMINATED BY ','
-ENCLOSED BY '"' 
-LINES TERMINATED BY '\r\n'
-IGNORE 1 ROWS
-(sid, name, level);
 
-/*
-====== LOAD MAJOR ======
-*/
-LOAD DATA LOCAL INFILE 'C:\\Users\\DEADL\\Documents\\coms363\\project1\\project1_data\\minor.csv'
-INTO TABLE minor
-FIELDS TERMINATED BY ','
-ENCLOSED BY '"' 
-LINES TERMINATED BY '\r\n'
-IGNORE 1 ROWS
-(sid, name, level);
