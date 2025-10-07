@@ -1,5 +1,4 @@
-use project1;
-
+-- use project1;
 /*
 Author: Eduardo Barboza-Campos
 Course: COMS 3630

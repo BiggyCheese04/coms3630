@@ -1,5 +1,3 @@
--- use project1;
-
 /*
 the sid and names of all students
 who have a minor,

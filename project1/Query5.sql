@@ -1,5 +1,3 @@
--- use project1;
-
 /*
 all degree names and levels,
 offered by the department Computer Science,

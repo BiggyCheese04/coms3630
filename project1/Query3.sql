@@ -1,5 +1,3 @@
--- use project1;
-
 /*
 numbers and names of all courses offered by
 the department of Computer Science,

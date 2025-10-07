@@ -1,7 +1,5 @@
 SET GLOBAL local_infile=1;
 
-use project1;
-
 /*
 ====== LOAD STUDENTS ======
 */
